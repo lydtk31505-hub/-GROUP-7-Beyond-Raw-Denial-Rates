@@ -1,0 +1,8 @@
+pyspark==4.0.5
+pandas
+numpy
+pyarrow
+matplotlib
+plotly
+scikit-learn
+psutil
