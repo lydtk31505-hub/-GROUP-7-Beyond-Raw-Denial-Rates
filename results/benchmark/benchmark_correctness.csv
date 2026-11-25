@@ -1,0 +1,8 @@
+output,groups,pandas_equals_spark_default_and_tuned
+state,55,True
+region,6,True
+metro,2,True
+loan_type,4,True
+msa,418,True
+region_x_loan,24,True
+fin_by_state_denied,110,True

@@ -1,0 +1,3 @@
+framework,algorithm,model_specification,training_records_with_dti,test_records_with_dti,test_denial_rate_with_dti,original_model_observed_dti_test_roc_auc,original_model_observed_dti_test_pr_auc,refit_observed_dti_test_roc_auc,refit_observed_dti_test_pr_auc,refit_seconds_sensitivity_only
+scikit-learn (supplemental only),Logistic Regression,A,2492610,623109,0.08598977065007887,0.7406584565915438,0.4175028524991297,0.7407202621503002,0.41736960352227964,20.426262377000057
+scikit-learn (supplemental only),Logistic Regression,B,2492610,623109,0.08598977065007887,0.75387423796721,0.42385362298462675,0.7539899375317267,0.4235999236890347,82.41672579400006

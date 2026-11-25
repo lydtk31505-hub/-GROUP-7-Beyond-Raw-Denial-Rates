@@ -1,0 +1,2 @@
+group,n,denied,denial_rate_pct,wilson_95_low_pct,wilson_95_high_pct,reportable,share_of_cohort_pct
+Missing state (state_code = NA),8026,5235,65.22551706952405,64.17652922299261,66.2599372070549,True,0.25553535229397584

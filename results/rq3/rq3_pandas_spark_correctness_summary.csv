@@ -1,0 +1,8 @@
+output,max_absolute_difference,tolerance,passed
+Total record count,0.0,0.0,True
+Missing-value counts across all columns,0.0,0.0,True
+State denial counts,0.0,0.0,True
+State denial rates,0.0,1e-06,True
+Mean loan amount by loan type,0.0,0.01,True
+Shared-support focus-state standardized gaps (proportions),2.220446049250313e-16,1e-06,True
+Direct standardized state gaps (proportions),1.5265566588595902e-16,1e-06,True

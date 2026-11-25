@@ -1,0 +1,25 @@
+check,got,expected,status
+raw: number of columns,99,99,OK
+raw: number of records,12259199,12259199,OK
+scope: after filter action_taken,8661779,8661779,OK
+scope: after filter occupancy_type,7792568,7792568,OK
+scope: after filter loan_purpose,3811298,3811298,OK
+scope: after filter lien_status,3641962,3641962,OK
+scope: after filter derived_dwelling_category,3237835,3237835,OK
+scope: after filter reverse_mortgage,3168105,3168105,OK
+scope: after filter open_end_line_of_credit,3145390,3145390,OK
+scope: after filter business_or_commercial_purpose,3140857,3140857,OK
+scope: originated (1),2775269,2775269,OK
+"scope: approved, not accepted (2)",88984,88984,OK
+scope: denied (3),276604,276604,OK
+R4  income <= 0 (invalid),16942,16942,OK
+R5  CLTV > 200 (invalid),371,371,OK
+R5  CLTV < 5 (invalid),288,288,OK
+R6  property_value = 2^31-1 (invalid),2,2,OK
+R7  loan_term < 12 (invalid),1001,1001,OK
+R7  loan_term > 480 (invalid),4,4,OK
+"R11 income > 5000 (kept, flagged)",857,857,OK
+"R10 loan-to-income > 10 (kept, flagged)",11937,11937,OK
+clean: rows,3140857,3140857,OK
+clean: denied rows,276604,276604,OK
+denied in 50 states + DC,268873,268873,OK

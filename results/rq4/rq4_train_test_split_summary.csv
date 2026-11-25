@@ -1,0 +1,3 @@
+split,records,denied_records,denial_rate
+Training,2512685,221283,0.08806635133333467
+Held-out test,628172,55321,0.088066644167521

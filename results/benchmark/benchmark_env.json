@@ -1,0 +1,21 @@
+{
+  "python": "3.13.18",
+  "pandas": "2.2.3",
+  "pyspark": "4.0.5",
+  "cpu_count": 2,
+  "ram_gb": 13.6,
+  "spark_master": "local[*]",
+  "spark_driver_memory": "8g",
+  "spark_shuffle_partitions_default": 200,
+  "spark_shuffle_partitions_tested": [
+    200,
+    8
+  ],
+  "runs_per_config": 5,
+  "scales_percent": [
+    25,
+    50,
+    100
+  ],
+  "spark_setup_cold_seconds": 25.76
+}

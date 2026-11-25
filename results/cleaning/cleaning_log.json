@@ -1,0 +1,72 @@
+{
+  "rows_in_scope": 3140857,
+  "exact_duplicate_rows_on_kept_columns": 679,
+  "special_NA_or_Exempt": {
+    "loan_amount": 0,
+    "income": 21366,
+    "combined_loan_to_value_ratio": 96968,
+    "property_value": 29439,
+    "loan_term": 6160
+  },
+  "missing_after_numeric_conversion": {
+    "loan_amount": 0,
+    "income": 21366,
+    "combined_loan_to_value_ratio": 96968,
+    "property_value": 29439,
+    "loan_term": 6160
+  },
+  "unparseable_other_than_NA_Exempt": {
+    "loan_amount": 0,
+    "income": 0,
+    "combined_loan_to_value_ratio": 0,
+    "property_value": 0,
+    "loan_term": 0
+  },
+  "loan_amount_non_positive": 0,
+  "invalid_flagged_and_nulled": {
+    "income_invalid": 16942,
+    "cltv_invalid": 659,
+    "property_value_invalid": 2,
+    "loan_term_invalid": 1005
+  },
+  "dti_raw_values_mapped_to_Missing": [
+    "Exempt",
+    "NA"
+  ],
+  "kept_but_flagged": {
+    "income_gt5000": 857,
+    "lti_gt10": 11937
+  },
+  "rows_out": 3140857,
+  "denied_rows": 276604,
+  "denied_rate": 0.088066,
+  "missing_by_column_out": {
+    "income": 38308,
+    "combined_loan_to_value_ratio": 97627,
+    "property_value": 29441,
+    "loan_term": 7165,
+    "loan_to_income": 38308
+  },
+  "dti_band_counts": {
+    "45-<50": 710151,
+    "40-<45": 628198,
+    "30-<36": 449579,
+    "36-<40": 401994,
+    "20-<30": 390684,
+    "50-60": 338631,
+    "<20": 113535,
+    ">60": 82947,
+    "Missing": 25138
+  },
+  "scope_step_counts": {
+    "total_records": 12259199,
+    "after_filter_action_taken": 8661779,
+    "after_filter_occupancy_type": 7792568,
+    "after_filter_loan_purpose": 3811298,
+    "after_filter_lien_status": 3641962,
+    "after_filter_derived_dwelling_category": 3237835,
+    "after_filter_reverse_mortgage": 3168105,
+    "after_filter_open_end_line_of_credit": 3145390,
+    "after_filter_business_or_commercial_purpose": 3140857
+  }
+}

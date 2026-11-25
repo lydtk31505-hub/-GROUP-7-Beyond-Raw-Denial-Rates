@@ -1,0 +1,2 @@
+records,denied_records,denial_rate,role
+150000,13210,0.08806666666666667,Training-set generalization diagnostic (not model selection)

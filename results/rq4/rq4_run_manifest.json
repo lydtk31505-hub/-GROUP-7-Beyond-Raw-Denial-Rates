@@ -1,0 +1,34 @@
+{
+  "run_started_utc": "2026-11-23T09:34:12+00:00",
+  "input_file": "hmda_clean_v1.parquet",
+  "analytical_records": 3140857,
+  "geographic_reference_records_50_states_dc": 3119941,
+  "geographic_reference_raw_denial_rate": 0.08617887325433397,
+  "train_records": 2512685,
+  "heldout_test_records": 628172,
+  "seed": 2026,
+  "split": "stratified 80/20",
+  "main_models": [
+    "A",
+    "B",
+    "C"
+  ],
+  "frameworks": [
+    "scikit-learn",
+    "Spark MLlib"
+  ],
+  "algorithms": [
+    "Logistic Regression",
+    "Random Forest"
+  ],
+  "python_version": "3.13.18",
+  "pandas_version": "2.2.3",
+  "sklearn_version": "1.6.1",
+  "pyspark_version": "4.0.5",
+  "pyarrow_version": "23.0.1",
+  "spark_session_startup_s": 14.74609111899997,
+  "spark_split_io_s": 2.7436037259999466,
+  "timing_repetitions_per_core_model": 1,
+  "benchmark_note": "Descriptive one-fit timings; not the group's five-run scale benchmark",
+  "dti_sensitivity": "scikit-learn LR A/B only, train and test filtered to observed DTI"
+}
